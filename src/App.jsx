@@ -385,19 +385,19 @@ export default function ChungyopingQuiz() {
               borderRadius: "18px", border: "1.5px solid rgba(255,255,255,0.35)",
               padding: "16px 20px", marginBottom: "12px",
             }}>
-              <p style={{ color: "rgba(255,255,255,0.65)", fontSize: "12px", marginBottom: "5px" }}>다음 미션 장소</p>
+              <p style={{ color: "rgba(255,255,255,0.65)", fontSize: "12px", marginBottom: "5px" }}>다음 장소</p>
               <p style={{ fontFamily: "'Gaegu', cursive", fontSize: "20px", color: "#fff", fontWeight: 700 }}>
                 📍 {q.nextLocation}
               </p>
             </div>
-            {questionIdx + 1 < QUESTIONS.length && (
+            {questionIdx + 1 <= QUESTIONS.length && (
               <div style={{
                 background: "rgba(255,255,255,0.13)", backdropFilter: "blur(8px)",
                 borderRadius: "14px", border: "1.5px solid rgba(255,255,255,0.3)",
                 padding: "12px 16px", marginBottom: "20px",
               }}>
                 <p style={{ color: "#fff", fontSize: "14px", fontWeight: 700, margin: 0, lineHeight: 1.5 }}>
-                  📱 화면을 보여주며<br/>
+                  다음 장소에서 화면📱을 보여주며<br/>
                   <span style={{ fontFamily: "'Gaegu', cursive", fontSize: "18px" }}>
                     "캐치! {q.tiniping}"
                   </span>
@@ -477,7 +477,7 @@ export default function ChungyopingQuiz() {
               </p>
               <p style={{ color: "rgba(255,255,255,0.75)", fontSize: "13px", marginBottom: "4px" }}>선물 수령 장소</p>
               <p style={{ fontFamily: "'Gaegu', cursive", fontSize: "20px", color: "#fff", fontWeight: 700 }}>
-                📍 본동 입구로 가세요
+                📍 그네 옆 휴게공간으로 가세요
               </p>
             </div>
           </div>
