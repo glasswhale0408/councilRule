@@ -9,7 +9,7 @@ import imgVolunteer from "./assets/봉사시간.png";
 // =============================================
 
 // 퀴즈 오픈 시간 설정 (년, 월-1, 일, 시, 분, 초)
-const OPEN_TIME = new Date(2025, 4, 29, 12, 30, 0);
+const OPEN_TIME = new Date(2026, 4, 29, 12, 30, 0);
 
 // 충여핑 이미지 (base64 내장)
 const IMG_CROCS = imgCrocs;
