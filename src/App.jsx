@@ -29,7 +29,7 @@ const QUESTIONS = [
       "지비츠가 10개쯤 달린 기깔나는 크록스 신고 등교하기",
     ],
     answer: 4,
-    nextLocation: "개수대", 
+    nextLocation: "급식실 앞 개수대", 
     bead: "블루 비즈",
     tiniping: "크록스신고등교하지않아핑",
     img: IMG_CROCS,
