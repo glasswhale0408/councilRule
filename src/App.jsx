@@ -9,7 +9,7 @@ import imgVolunteer from "./assets/봉사시간.png";
 // =============================================
 
 // 퀴즈 오픈 시간 설정 (년, 월-1, 일, 시, 분, 초)
-const OPEN_TIME = new Date(2026, 4, 29, 12, 30, 0);
+const OPEN_TIME = new Date(2025, 4, 29, 12, 30, 0);
 
 // 충여핑 이미지 (base64 내장)
 const IMG_CROCS = imgCrocs;
@@ -29,7 +29,7 @@ const QUESTIONS = [
       "지비츠가 10개쯤 달린 기깔나는 크록스 신고 등교하기",
     ],
     answer: 4,
-    nextLocation: "급식실 앞 개수대", 
+    nextLocation: "후동 앞 개수대", 
     bead: "블루 비즈",
     tiniping: "크록스신고등교하지않아핑",
     img: IMG_CROCS,
@@ -74,7 +74,7 @@ const QUESTIONS = [
       "쓰레기를 발견했지만 마음으로만 치우기",
     ],
     answer: 1,
-    nextLocation: "본동 입구",
+    nextLocation: "본동 쪽 개수대",
     bead: "핑크 비즈",
     tiniping: "일한만큼받아요봉사시간핑",
     img: IMG_VOLUNTEER,
